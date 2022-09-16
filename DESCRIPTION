@@ -1,0 +1,17 @@
+Package: montyhall
+Title: Monty Hall Game Package
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package simulates the Monty Hall game. 
+  The user selects a random door from 1-3. A goat door is selected.
+  The user may change their selection. The selection will either be a goat door 
+  or car door.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: dplyr
+
